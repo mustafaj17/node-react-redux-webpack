@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import icon from '../../assets/icon.png'
 import './app.sass';
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div className="app">
           HELLO WORLD!
+          <img src={icon} alt=""/>
       </div>
     );
   }
